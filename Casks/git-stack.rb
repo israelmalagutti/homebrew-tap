@@ -5,22 +5,22 @@ cask "git-stack" do
   on_macos do
     on_intel do
       url "https://github.com/israelmalagutti/git-stack/releases/download/v#{version}/gs-darwin-amd64.tar.gz"
-      sha256 "7ff908894941a32762761941e70aabb7f399f836490c5322b8ae363b098f1cac"
+      sha256 "a872688a3bbbf554c94af0a429d373bd8d53911ab9be4b84d1ecbc850fb118d9"
     end
     on_arm do
       url "https://github.com/israelmalagutti/git-stack/releases/download/v#{version}/gs-darwin-arm64.tar.gz"
-      sha256 "8adc86bfd8c262501f0548b63cb35eebb1d8b35b536e912e0c692e62f35964ac"
+      sha256 "1558f0be031590b5b62e0ad8fbf822a80672fcbf2fef11b4c64c03dfa8979c4c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/israelmalagutti/git-stack/releases/download/v#{version}/gs-linux-amd64.tar.gz"
-      sha256 "64b18172f4cc55fb4818ebb2de552d2ec2279b0945961769dace7ecb73d26dc0"
+      sha256 "aac96c43a9bae5e7def4590c5a97c3b4cb839131711c8b59daea0f37225b8975"
     end
     on_arm do
       url "https://github.com/israelmalagutti/git-stack/releases/download/v#{version}/gs-linux-arm64.tar.gz"
-      sha256 "4b7119819a6f57b038b1e7ef6ea4566757a21a4247da5d785bf7f4db0711945f"
+      sha256 "62628f9cebf1ede2ee2c12b205fc7aca12ab896a61fb850c3eb75fc728333a35"
     end
   end
 
